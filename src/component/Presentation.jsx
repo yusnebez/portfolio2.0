@@ -1,4 +1,3 @@
-import {motion} from 'framer-motion'
 import MovingText from 'react-moving-text'
 import {AiOutlineDown} from 'react-icons/ai'
 
@@ -6,7 +5,7 @@ export const Presentation = () => {
     
   return (
     
-    <motion.div className="grid lg:h-screen lg:grid-cols-2 bg-cover lg:grid-rows-2 bg-[#191919]"  id='presentation'
+    <div className="grid lg:h-screen lg:grid-cols-2 bg-cover lg:grid-rows-2 bg-[#191919]"  id='presentation'
   
     >
         <div  className='col-start-1 row-start-1 lg:row-start-2'>
@@ -61,7 +60,7 @@ export const Presentation = () => {
         </div>
         
         
-    </motion.div>
+    </div>
   )
 }
 
