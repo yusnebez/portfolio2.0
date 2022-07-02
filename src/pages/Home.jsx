@@ -1,7 +1,5 @@
-import { Education } from '../component/Education'
+
 import {Nav} from '../component/Nav'
-import { Proyect } from '../component/Proyect'
-import { Contact } from '../component/Contact'
 import { Presentation } from '../component/Presentation'
 
 
