@@ -1,5 +1,6 @@
 import {useLocation, Route, Routes } from 'react-router-dom'
 import {Home} from '../src/pages/Home'
+import {Presentation} from '../src/component/Presentation'
 
 
 function App() {
@@ -11,8 +12,8 @@ function App() {
       
       <Routes location={location} keys={location.pathname}>    
             <Route path='/' element={<Home/>}/>
-            
-        </Routes>
+            <Route path='/presentation' element={<Presentation/>}/>
+      </Routes>
     
       
     </div>
